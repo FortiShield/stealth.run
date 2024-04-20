@@ -15,7 +15,7 @@ export default defineConfig({
     origin: "http://0.0.0.0:8080",
   },
   build: {
-    outDir: "build",
+    outDir: "dist",
   },
   plugins: [react()],
 });
